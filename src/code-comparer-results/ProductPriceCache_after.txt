@@ -1,0 +1,34 @@
+====================
+{
+  "fileName": "ProductPriceCache",
+  "lineNumber": 35,
+  "currentMethodState": {
+    "methodName": "getProductPrice",
+    "returnType": "double",
+    "parameters": [
+      {
+        "name": "product",
+        "serializedValue": "\"orange\""
+      }
+    ]
+  },
+  "invokedMethodState": {
+    "methodName": "lambda$getProductPrice$0",
+    "returnType": "java.lang.Double",
+    "parameters": [
+      {
+        "name": "product",
+        "serializedValue": "\"orange\""
+      },
+      {
+        "name": "key",
+        "serializedValue": "\"orange\""
+      }
+    ]
+  },
+  "exceptionDetails": {
+    "exceptionType": "java.util.ConcurrentModificationException",
+    "stackTrace": "java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1229)\ncom.example.ProductPriceCache.getProductPrice(ProductPriceCache.java:35)\ncom.example.ProductPriceCache.main(ProductPriceCache.java:24)\n"
+  }
+}
+====================
